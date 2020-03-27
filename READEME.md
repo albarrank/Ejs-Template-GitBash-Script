@@ -1,0 +1,1 @@
+# EJS Template GitBash Script
