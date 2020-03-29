@@ -66,4 +66,4 @@ touch server.js
 
 export MY_PATH="/c/Users/albar/Desktop/Tools/bashTools"
 node $MY_PATH/serverTemp.js
-
+node $MY_PATH/routingTemp.js
