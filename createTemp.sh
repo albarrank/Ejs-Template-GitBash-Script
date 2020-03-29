@@ -29,7 +29,7 @@ touch server.js
 # npm init -y
 # npm i dotenv ejs express
 
-# write script js
+# write inside server.js file
 echo "const express = require('express');" >> server.js
 echo "const app = express();" >> server.js
 echo "const path = require('path');" >> server.js
