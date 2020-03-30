@@ -45,8 +45,6 @@ cd ./meta-links
 node $MY_PATH/html/cssEJS.js
 node $MY_PATH/html/headEJS.js
 node $MY_PATH/html/jsEJS.js
-pwd
-# cd ..
 
 
 
