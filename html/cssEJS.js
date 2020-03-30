@@ -17,9 +17,7 @@ const htmlScripts = [
 	'\n    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"',
 	'\n    crossorigin="anonymous"',
 	"\n>/",
-	'\n\n<link rel="stylesheet" type="text/css" href="assets/css/menu.css" />',
-	'\n<link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" />',
-	'\n<link rel="stylesheet" type="text/css" href="assets/css/style.css" />'
+	'\n\n<link rel="stylesheet" type="text/css" href="assets/css/style.css" />'
 ];
 
 htmlScripts.forEach((str) => logger.write(str));

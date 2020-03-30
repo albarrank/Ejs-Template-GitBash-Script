@@ -4,7 +4,7 @@ const htmlScripts = [
 	'\n<meta charset="utf-8" />',
 	'\n<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">',
 	"\n\n<meta",
-	'\n    name="description',
+	'\n    name="description"',
 	'\n    content="some content goes here"',
 	"\n/>",
 	"\n<meta",

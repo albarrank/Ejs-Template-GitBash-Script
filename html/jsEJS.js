@@ -15,8 +15,7 @@ const htmlScripts = [
 	'\n    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"',
 	'\n    crossorigin="anonymous"',
 	"\n></script>",
-	'\n\n<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>',
-	'\n<script src="/assets/js/index.js"></script>'
+	'\n\n<script src="/assets/js/index.js"></script>'
 ];
 
 htmlScripts.forEach((str) => logger.write(str));
