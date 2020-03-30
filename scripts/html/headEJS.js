@@ -1,4 +1,4 @@
-const logger = require("../logger/logger")("head.ejs");
+const logger = require("../../logger/logger")("head.ejs");
 const htmlScripts = [
 	"<title> Test Title </title>",
 	'\n<meta charset="utf-8" />',

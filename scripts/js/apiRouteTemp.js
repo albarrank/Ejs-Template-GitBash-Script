@@ -1,4 +1,4 @@
-const logger = require("../logger/logger")("apiRoutes.js");
+const logger = require("../../logger/logger")("apiRoutes.js");
 const scripts = [
 	"require('dotenv').config();",
 	"\nconst express = require('express');",

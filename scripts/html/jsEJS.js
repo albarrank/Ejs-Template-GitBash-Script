@@ -1,4 +1,4 @@
-const logger = require("../logger/logger")("js.ejs");
+const logger = require("../../logger/logger")("js.ejs");
 const htmlScripts = [
 	"<script",
 	'\n    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"',

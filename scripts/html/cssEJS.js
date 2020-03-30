@@ -1,4 +1,4 @@
-const logger = require("../logger/logger")("css.ejs");
+const logger = require("../../logger/logger")("css.ejs");
 const htmlScripts = [
 	"<link",
 	'\n    rel="stylesheet"',

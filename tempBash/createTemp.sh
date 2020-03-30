@@ -11,7 +11,7 @@ export MY_PATH="/c/Users/albar/Desktop/Tools/bashTools"
 touch .gitignore
 touch README.md
 touch .env
-node $MY_PATH/js/serverTemp.js
+node $MY_PATH/scripts/js/serverTemp.js
 
 # FOLDERS IN HOME DIRECTORY
 mkdir config
@@ -21,30 +21,39 @@ mkdir routes
 mkdir test
 mkdir views
 
+# CREATE EXPRESS ROUTES
 cd ./routes
-node $MY_PATH/js/apiRouteTemp.js
-node $MY_PATH/js/htmlRouteTemp.js
+node $MY_PATH/scripts/js/apiRouteTemp.js
+node $MY_PATH/scripts/js/htmlRouteTemp.js
 
+# PUBLIC FOLDERS FOR APP
 cd ./../public
 mkdir js
-mkdir css
 mkdir images
 mkdir files
+mkdir css
+cd ./js
+touch index.js
+cd ./../css
+node $MY_PATH/scripts/css/resetCSS.js
+touch style.css
+cd ./../
 
+# EJS VIEW ENGINE FILES
 cd ./../views
 mkdir pages
 mkdir partials
 
 cd ./pages
-node $MY_PATH/html/indexEJS.js
+node $MY_PATH/scripts/html/indexEJS.js
 
 cd ./../partials
 mkdir meta-links
 
 cd ./meta-links
-node $MY_PATH/html/cssEJS.js
-node $MY_PATH/html/headEJS.js
-node $MY_PATH/html/jsEJS.js
+node $MY_PATH/scripts/html/cssEJS.js
+node $MY_PATH/scripts/html/headEJS.js
+node $MY_PATH/scripts/html/jsEJS.js
 
 
 
