@@ -9,7 +9,6 @@ export MY_PATH="/c/Users/albar/Desktop/Tools/bashTools"
 # npm i dotenv ejs express
 
 touch .gitignore
-# touch server.js
 touch README.md
 touch .env
 node $MY_PATH/js/serverTemp.js
@@ -23,8 +22,6 @@ mkdir test
 mkdir views
 
 cd ./routes
-# touch apiRoute.js
-# touch htmlRoute.js
 node $MY_PATH/js/apiRouteTemp.js
 node $MY_PATH/js/htmlRouteTemp.js
 
@@ -41,6 +38,14 @@ mkdir partials
 cd ./pages
 node $MY_PATH/html/indexEJS.js
 
+cd ./../partials
+mkdir meta-links
+
+cd ./meta-links
+node $MY_PATH/html/cssEJS.js
+node $MY_PATH/html/headEJS.js
+node $MY_PATH/html/jsEJS.js
+pwd
 # cd ..
 
 

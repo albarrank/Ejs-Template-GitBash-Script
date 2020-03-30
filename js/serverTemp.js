@@ -7,7 +7,7 @@ const scripts = [
 	"\n\nconst PORT = process.env.PORT || 3000;",
 	"\n\nconst pageRoutes = require('./routes/htmlRoutes');",
 	"\nconst apiRoutes = require('./routes/apiRoutes');",
-	"\napp.set('views', path.join(__dirname, 'views'));",
+	"\n\napp.set('views', path.join(__dirname, 'views'));",
 	"\napp.set('view engine', 'ejs');",
 	"\n\napp.use(express.static('public'));",
 	"\napp.use(express.urlencoded({ extended: true }));",
