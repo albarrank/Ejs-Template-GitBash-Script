@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # PATH VARIABLE FOR SCRIPTS
-export TEST_PATH="/c/Users/albar/Desktop/Tools/bashTools"
+export MY_PATH="/c/Users/albar/Desktop/Tools/bashTools"
 
 # FILES IN HOME DIRECTORY
 # create npm package and install dependencies 
@@ -23,8 +23,10 @@ mkdir routes
 # mkdir views
 
 cd ./routes
-touch apiRoute.js
-touch htmlRoute.js
+# touch apiRoute.js
+# touch htmlRoute.js
+node $MY_PATH/js/apiRouteTemp.js
+node $MY_PATH/js/htmlRouteTemp.js
 
 # cd ./../public
 # mkdir js
