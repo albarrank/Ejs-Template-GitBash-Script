@@ -1,4 +1,4 @@
-const logger = require("../logger/logger")("index.ejs");
+const logger = require("../../logger/logger")("index.ejs");
 
 const htmlScripts = [
 	"<!DOCTYPE html>",

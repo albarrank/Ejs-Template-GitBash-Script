@@ -1,5 +1,5 @@
 // writes inside server.js file
-const logger = require("../logger/logger")("server.js");
+const logger = require("../../logger/logger")("server.js");
 const scripts = [
 	"const express = require('express');",
 	"\nconst app = express();",

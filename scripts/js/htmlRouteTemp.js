@@ -1,4 +1,4 @@
-const logger = require("../logger/logger")("htmlRoutes.js");
+const logger = require("../../logger/logger")("htmlRoutes.js");
 const scripts = [
 	"const express = require('express');",
 	"\nconst router = express.Router();",

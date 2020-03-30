@@ -4,9 +4,8 @@
 export MY_PATH="/c/Users/albar/Desktop/Tools/bashTools"
 
 # FILES IN HOME DIRECTORY
-# create npm package and install dependencies 
-# npm init -y
-# npm i dotenv ejs express
+npm init -y
+npm i dotenv ejs express
 
 touch .gitignore
 touch README.md
@@ -44,16 +43,17 @@ cd ./../views
 mkdir pages
 mkdir partials
 
-cd ./pages
-node $MY_PATH/scripts/html/indexEJS.js
-
-cd ./../partials
+cd ./partials
 mkdir meta-links
 
 cd ./meta-links
 node $MY_PATH/scripts/html/cssEJS.js
 node $MY_PATH/scripts/html/headEJS.js
 node $MY_PATH/scripts/html/jsEJS.js
+
+cd ./../../pages
+node $MY_PATH/scripts/html/indexEJS.js
+
 
 
 
