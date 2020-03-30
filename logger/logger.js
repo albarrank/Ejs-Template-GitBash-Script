@@ -6,6 +6,5 @@ module.exports = function(file) {
 	};
 	const logger = fs.createWriteStream(file, options);
 
-	console.log(logger);
 	return logger;
 };

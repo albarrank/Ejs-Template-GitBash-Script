@@ -8,19 +8,19 @@ export MY_PATH="/c/Users/albar/Desktop/Tools/bashTools"
 # npm init -y
 # npm i dotenv ejs express
 
-# touch .gitignore
+touch .gitignore
 # touch server.js
-# touch README.md
-# touch .env
-# node $MY_PATH/js/serverTemp.js
+touch README.md
+touch .env
+node $MY_PATH/js/serverTemp.js
 
 # FOLDERS IN HOME DIRECTORY
-# mkdir config
-# mkdir models
-# mkdir public
+mkdir config
+mkdir models
+mkdir public
 mkdir routes
-# mkdir test
-# mkdir views
+mkdir test
+mkdir views
 
 cd ./routes
 # touch apiRoute.js
@@ -28,15 +28,18 @@ cd ./routes
 node $MY_PATH/js/apiRouteTemp.js
 node $MY_PATH/js/htmlRouteTemp.js
 
-# cd ./../public
-# mkdir js
-# mkdir css
-# mkdir images
-# mkdir files
+cd ./../public
+mkdir js
+mkdir css
+mkdir images
+mkdir files
 
-# cd ./../views
-# mkdir pages
-# mkdir partials
+cd ./../views
+mkdir pages
+mkdir partials
+
+cd ./pages
+node $MY_PATH/html/indexEJS.js
 
 # cd ..
 
